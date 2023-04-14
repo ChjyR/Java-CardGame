@@ -1,6 +1,7 @@
 # Java-CardGame
 
 The computer will simulate the dealer. When the game starts, 52 playing cards will be shuffled and the player is given $100. At each round of the game, both the player and the dealer will be given 3 cards (they are drawn from the top of the deck). Player will place his/her bet (you can assume the player always place a positive integer bet). Then before the dealer opens the cards, the player has a chance to draw AT MOST two cards from the top of the deck to replace any two of the cards on hand and each card on hand can only be replaced ONCE. Player will lose the bet if the dealer got a better hand (see below for explanation), otherwise the player wins the same amount of money as his/her bet.
+
 Rules to determine who has better cards:
 J, Q, K are regarded as special cards.
 Rule 1: The one with more special cards wins.
